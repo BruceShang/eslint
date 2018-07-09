@@ -7,6 +7,8 @@ module.exports = {
   },
   env: {
     browser: true,
+    node: true,
+    jquery: true
   },
   extends: [
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
@@ -24,6 +26,20 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    // 'valid-jsdoc': [1, {
+    //   requireReturn: false,
+    //   requireParamDescription: false,
+    //   requireReturnDescription: false,
+    //   matchDescription: '.+'
+    // }],
+    'valid-jsdoc': 1,
+    // 'require-jsdoc': [1, {
+    //   require: {
+    //     FunctionDeclaration: true,
+    //     MethodDefinition: true,
+    //     ClassDeclaration: true,
+    //   },
+    // }],
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
@@ -33,8 +49,8 @@ module.exports = {
     'jsdoc/check-types': 1,
     'jsdoc/newline-after-description': 1,
     'jsdoc/no-undefined-types': 1,
-    'jsdoc/require-description-complete-sentence': 1,
-    'jsdoc/require-example': 1,
+    // 'jsdoc/require-description-complete-sentence': 1,
+    // 'jsdoc/require-example': 1,
     'jsdoc/require-hyphen-before-param-description': 1,
     'jsdoc/require-param': 1,
     'jsdoc/require-param-description': 1,
@@ -42,7 +58,7 @@ module.exports = {
     'jsdoc/require-param-type': 1,
     'jsdoc/require-returns-description': 1,
     'jsdoc/require-returns-type': 1,
-    'jsdoc/valid-type': 1
+    // 'jsdoc/valid-type': 1
   },
   settings: {
     jsdoc: {

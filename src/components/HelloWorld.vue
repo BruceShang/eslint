@@ -83,7 +83,7 @@
   </div>
 </template>
 
-<script>
+<script type="text/babel">
 export default {
   name: 'HelloWorld',
   data () {
@@ -94,13 +94,23 @@ export default {
   },
   methods: {
     /**
-     * 获取数据
+     *获取数据
      *
-     * @param {Number} foo 你好
+     * @param {Array} foo - 你好
+     * @return {number} jkdjfkdjf
      */
     fetchList (foo) {
-      console.log('123')
-      return foo
+      return foo.filter()
+    },
+    /**
+     *kdjfjkjdf
+     *
+     * @param {number} param1 - kjdf
+     * @param {number} param2 - kjdf
+     * @return {number} kdjkdjf
+    */
+    queryContent (param1, param2) {
+      window.console.log(123)
     }
   }
 }

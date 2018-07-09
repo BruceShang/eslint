@@ -18,14 +18,20 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-[1](http://usejsdoc.org/tags-param.html)
-[2(https://github.com/vuejs/eslint-plugin-vue)
-[2](https://github.com/Kocal/jsdoc-vuejs)
-[2](https://www.npmjs.com/package/eslint-plugin-jsdoc)
-[2](https://github.com/gajus/eslint-plugin-jsdoc)
-[2](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-param-description)
-[2]()
-[2]()
-[2]()
-[2]()
+For a detailed explanation on how things work, check out the 
+
+[guide](http://vuejs-templates.github.io/webpack/)
+
+[docs for vue-loader](http://vuejs.github.io/vue-loader)
+
+[usejsdoc](http://usejsdoc.org/tags-param.html)
+
+[eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
+
+[jsdoc-vuejs](https://github.com/Kocal/jsdoc-vuejs)
+
+[npm-eslint-plugin-jsdoc](https://www.npmjs.com/package/eslint-plugin-jsdoc)
+
+[github-eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
+
+[eslint-plugin-jsdoc-rules-require-param-description](https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-param-description)
