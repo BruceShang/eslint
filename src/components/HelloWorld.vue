@@ -86,10 +86,24 @@
 <script type="text/babel">
 export default {
   name: 'HelloWorld',
-  data () {
+  data() {
     return {
-      msg: 'test Welcome to Your Vue.js App'
-      // arr: [1,2,3]
+      msg: 'test Welcome to Your Vue.js App',
+      arr: [1, 2, 3],
+      arr1: [
+        {
+          a: 1,
+          b: 2,
+        },
+        {
+          a: 1,
+          b: 2,
+        },
+        {
+          a: 1,
+          b: 2,
+        },
+      ],
     }
   },
   methods: {
@@ -99,7 +113,7 @@ export default {
      * @param {Array} foo - 你好
      * @return {number} jkdjfkdjf
      */
-    fetchList (foo) {
+    fetchList(foo) {
       return foo.filter()
     },
     /**
@@ -107,12 +121,12 @@ export default {
      *
      * @param {number} param1 - kjdf
      * @param {number} param2 - kjdf
-     * @return {number} kdjkdjf
     */
-    queryContent (param1, param2) {
-      window.console.log(123)
-    }
-  }
+    queryContent(param1, param2) {
+      const abc = 123
+      window.console.log(param1 + param2 + abc)
+    },
+  },
 }
 </script>
 
